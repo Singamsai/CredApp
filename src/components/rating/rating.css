@@ -1,0 +1,29 @@
+.rating{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    color: white;
+}
+.ratingbox{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.ratingbox h1{
+    font-size: 5rem;
+}
+.ratingbox h1 span{
+    font-size: 2.5rem;
+}
+.ratingbox h2{
+    font-size: 3rem;
+}
+.ratingbox button{
+    height: 4rem;
+    width: 15rem;
+    border-radius: 28px;
+    font-size: 1.5rem;
+}
